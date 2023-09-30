@@ -1,2 +1,3 @@
 Simple Maven Project
 
+test
