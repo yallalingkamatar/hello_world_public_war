@@ -5,7 +5,7 @@
       shell: sudo chmod 777 /var/run/docker.sock
       
     - name: login to jfrog
-      shell: docker login -u kamataryallu003@gmail.com -p yallaling.jfrog.io  
+      shell: docker login -u kamataryallu003@gmail.com -p Siddesh@123 yallaling.jfrog.io  
     
     - name: pull an image
       shell: docker pull yallaling.jfrog.io/docker/devops_practice:{{ BUILD_NUMBER }}
