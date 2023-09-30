@@ -11,7 +11,7 @@
       shell: docker pull yallaling.jfrog.io/docker/devops_practice:{{ BUILD_NUMBER }}
 
     - name: remove container
-      shell: docker rm -f devops_practice
+      shell: sudo docker rm -f devops_practice
         
     - name: create a application container
       shell: docker run -id --name devopsAppDeploy -p 8111:8080 yallaling.jfrog.io/docker/devops_practice:{{ BUILD_NUMBER }}
