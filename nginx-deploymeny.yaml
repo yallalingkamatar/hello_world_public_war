@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: devopsapp
-        image: siddeshg672/devopsapp:test-deploy_52
+        image: shstechacademymay23.jfrog.io/docker-test/app-a/hello_world_public_war:1
         ports:
         - containerPort: 8080
