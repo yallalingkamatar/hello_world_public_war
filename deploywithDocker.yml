@@ -2,7 +2,7 @@
 - hosts: websever
   tasks:
     - name: login to jfrog
-      shell: docker login -u devops6789@gmail.com -p Siddu@9880 shstechacademy.jfrog.io     
+      shell: docker login -u kamataryallu003@gmail.com -p Siddesh@123 yallaling.jfrog.io  
     
     - name: pull an image
       shell: docker pull shstechacademy.jfrog.io/sampledockeruplaod/newimage:31
